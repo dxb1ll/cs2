@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-29 20:23:49.943364400 UTC
+// 2024-11-01 19:29:14.554293700 UTC
 
 #pragma once
 
@@ -5643,15 +5643,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_minHitPointsToCommit = 0x4E8; // int32
             }
             // Parent: CPlayerControllerComponent
-            // Field count: 3
+            // Field count: 2
             //
             // Metadata:
             // NetworkVarNames: m_nSendUpdate (int)
             // NetworkVarNames: m_DamageList (CDamageRecord)
             namespace CCSPlayerController_DamageServices {
-                constexpr std::ptrdiff_t m_DamageListServer = 0x40; // CUtlVector<CDamageRecord>
-                constexpr std::ptrdiff_t m_nSendUpdate = 0x58; // int32
-                constexpr std::ptrdiff_t m_DamageList = 0x60; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
+                constexpr std::ptrdiff_t m_nSendUpdate = 0x40; // int32
+                constexpr std::ptrdiff_t m_DamageList = 0x48; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
             }
             // Parent: CEntityComponent
             // Field count: 5

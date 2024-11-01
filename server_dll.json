@@ -4504,9 +4504,8 @@
       },
       "CCSPlayerController_DamageServices": {
         "fields": {
-          "m_DamageList": 96,
-          "m_DamageListServer": 64,
-          "m_nSendUpdate": 88
+          "m_DamageList": 72,
+          "m_nSendUpdate": 64
         },
         "metadata": [
           {

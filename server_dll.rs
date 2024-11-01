@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-10-29 20:23:49.943364400 UTC
+// 2024-11-01 19:29:14.554293700 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -5745,15 +5745,14 @@ pub mod cs2_dumper {
                 pub const m_minHitPointsToCommit: usize = 0x4E8; // int32
             }
             // Parent: CPlayerControllerComponent
-            // Field count: 3
+            // Field count: 2
             //
             // Metadata:
             // NetworkVarNames: m_nSendUpdate (int)
             // NetworkVarNames: m_DamageList (CDamageRecord)
             pub mod CCSPlayerController_DamageServices {
-                pub const m_DamageListServer: usize = 0x40; // CUtlVector<CDamageRecord>
-                pub const m_nSendUpdate: usize = 0x58; // int32
-                pub const m_DamageList: usize = 0x60; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
+                pub const m_nSendUpdate: usize = 0x40; // int32
+                pub const m_DamageList: usize = 0x48; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
             }
             // Parent: CEntityComponent
             // Field count: 5
