@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-17 17:44:23.758580100 UTC
+// 2024-11-19 17:20:58.812394700 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -82,11 +82,6 @@ namespace CS2Dumper.Interfaces {
     public static class LocalizeDll {
         public const nint Localize_001 = 0x3AAD0;
     }
-    // Module: matchmaking.dll
-    public static class MatchmakingDll {
-        public const nint GameTypes001 = 0x1A41B0;
-        public const nint MATCHFRAMEWORK_001 = 0x1AC380;
-    }
     // Module: materialsystem2.dll
     public static class Materialsystem2Dll {
         public const nint FontManager_001 = 0x113330;
@@ -98,10 +93,6 @@ namespace CS2Dumper.Interfaces {
     // Module: meshsystem.dll
     public static class MeshsystemDll {
         public const nint MeshSystem001 = 0x150C20;
-    }
-    // Module: navsystem.dll
-    public static class NavsystemDll {
-        public const nint NavSystem001 = 0xFA730;
     }
     // Module: networksystem.dll
     public static class NetworksystemDll {
@@ -139,11 +130,6 @@ namespace CS2Dumper.Interfaces {
     // Module: resourcesystem.dll
     public static class ResourcesystemDll {
         public const nint ResourceSystem013 = 0x6AFF0;
-    }
-    // Module: scenefilecache.dll
-    public static class ScenefilecacheDll {
-        public const nint ResponseRulesCache001 = 0x710E0;
-        public const nint SceneFileCache002 = 0x71250;
     }
     // Module: scenesystem.dll
     public static class ScenesystemDll {

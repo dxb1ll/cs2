@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-17 17:44:23.758580100 UTC
+// 2024-11-19 17:20:58.812394700 UTC
 
 #pragma once
 
@@ -87,11 +87,6 @@ namespace cs2_dumper {
         namespace localize_dll {
             constexpr std::ptrdiff_t Localize_001 = 0x3AAD0;
         }
-        // Module: matchmaking.dll
-        namespace matchmaking_dll {
-            constexpr std::ptrdiff_t GameTypes001 = 0x1A41B0;
-            constexpr std::ptrdiff_t MATCHFRAMEWORK_001 = 0x1AC380;
-        }
         // Module: materialsystem2.dll
         namespace materialsystem2_dll {
             constexpr std::ptrdiff_t FontManager_001 = 0x113330;
@@ -103,10 +98,6 @@ namespace cs2_dumper {
         // Module: meshsystem.dll
         namespace meshsystem_dll {
             constexpr std::ptrdiff_t MeshSystem001 = 0x150C20;
-        }
-        // Module: navsystem.dll
-        namespace navsystem_dll {
-            constexpr std::ptrdiff_t NavSystem001 = 0xFA730;
         }
         // Module: networksystem.dll
         namespace networksystem_dll {
@@ -144,11 +135,6 @@ namespace cs2_dumper {
         // Module: resourcesystem.dll
         namespace resourcesystem_dll {
             constexpr std::ptrdiff_t ResourceSystem013 = 0x6AFF0;
-        }
-        // Module: scenefilecache.dll
-        namespace scenefilecache_dll {
-            constexpr std::ptrdiff_t ResponseRulesCache001 = 0x710E0;
-            constexpr std::ptrdiff_t SceneFileCache002 = 0x71250;
         }
         // Module: scenesystem.dll
         namespace scenesystem_dll {

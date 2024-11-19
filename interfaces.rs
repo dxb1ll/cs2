@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-11-17 17:44:23.758580100 UTC
+// 2024-11-19 17:20:58.812394700 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -85,11 +85,6 @@ pub mod cs2_dumper {
         pub mod localize_dll {
             pub const Localize_001: usize = 0x3AAD0;
         }
-        // Module: matchmaking.dll
-        pub mod matchmaking_dll {
-            pub const GameTypes001: usize = 0x1A41B0;
-            pub const MATCHFRAMEWORK_001: usize = 0x1AC380;
-        }
         // Module: materialsystem2.dll
         pub mod materialsystem2_dll {
             pub const FontManager_001: usize = 0x113330;
@@ -101,10 +96,6 @@ pub mod cs2_dumper {
         // Module: meshsystem.dll
         pub mod meshsystem_dll {
             pub const MeshSystem001: usize = 0x150C20;
-        }
-        // Module: navsystem.dll
-        pub mod navsystem_dll {
-            pub const NavSystem001: usize = 0xFA730;
         }
         // Module: networksystem.dll
         pub mod networksystem_dll {
@@ -142,11 +133,6 @@ pub mod cs2_dumper {
         // Module: resourcesystem.dll
         pub mod resourcesystem_dll {
             pub const ResourceSystem013: usize = 0x6AFF0;
-        }
-        // Module: scenefilecache.dll
-        pub mod scenefilecache_dll {
-            pub const ResponseRulesCache001: usize = 0x710E0;
-            pub const SceneFileCache002: usize = 0x71250;
         }
         // Module: scenesystem.dll
         pub mod scenesystem_dll {
