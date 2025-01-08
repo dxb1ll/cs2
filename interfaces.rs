@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-12-29 16:51:21.926405800 UTC
+// 2025-01-08 21:40:37.173254600 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -12,14 +12,14 @@ pub mod cs2_dumper {
         }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x1860AB0;
+            pub const ClientToolsInfo_001: usize = 0x1860AE0;
             pub const EmptyWorldService001_Client: usize = 0x181BE10;
-            pub const GameClientExports001: usize = 0x185D768;
-            pub const LegacyGameUI001: usize = 0x187E2E0;
-            pub const Source2Client002: usize = 0x1A78E30;
-            pub const Source2ClientConfig001: usize = 0x1A0F600;
-            pub const Source2ClientPrediction001: usize = 0x1868B60;
-            pub const Source2ClientUI001: usize = 0x187C6C0;
+            pub const GameClientExports001: usize = 0x185D798;
+            pub const LegacyGameUI001: usize = 0x187E320;
+            pub const Source2Client002: usize = 0x1A78E40;
+            pub const Source2ClientConfig001: usize = 0x1A0F610;
+            pub const Source2ClientPrediction001: usize = 0x1868B90;
+            pub const Source2ClientUI001: usize = 0x187C700;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -127,7 +127,7 @@ pub mod cs2_dumper {
         }
         // Module: particles.dll
         pub mod particles_dll {
-            pub const ParticleSystemMgr003: usize = 0x629CB0;
+            pub const ParticleSystemMgr003: usize = 0x629CD0;
         }
         // Module: pulse_system.dll
         pub mod pulse_system_dll {
@@ -160,22 +160,22 @@ pub mod cs2_dumper {
         }
         // Module: server.dll
         pub mod server_dll {
-            pub const EmptyWorldService001_Server: usize = 0x1376B20;
+            pub const EmptyWorldService001_Server: usize = 0x1376B10;
             pub const EntitySubclassUtilsV001: usize = 0x13273E0;
-            pub const NavGameTest001: usize = 0x1416B88;
-            pub const ServerToolsInfo_001: usize = 0x13CC4A8;
-            pub const Source2GameClients001: usize = 0x13C6350;
+            pub const NavGameTest001: usize = 0x1416B78;
+            pub const ServerToolsInfo_001: usize = 0x13CC498;
+            pub const Source2GameClients001: usize = 0x13C6340;
             pub const Source2GameDirector001: usize = 0x14FA100;
-            pub const Source2GameEntities001: usize = 0x13CC3D0;
-            pub const Source2Server001: usize = 0x13CC240;
-            pub const Source2ServerConfig001: usize = 0x15C4F68;
+            pub const Source2GameEntities001: usize = 0x13CC3C0;
+            pub const Source2Server001: usize = 0x13CC230;
+            pub const Source2ServerConfig001: usize = 0x15C4FC8;
             pub const customnavsystem001: usize = 0x130BB38;
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const SoundOpSystem001: usize = 0x39DC40;
-            pub const SoundOpSystemEdit001: usize = 0x39DB10;
-            pub const SoundSystem001: usize = 0x39D5E0;
+            pub const SoundOpSystem001: usize = 0x39EC40;
+            pub const SoundOpSystemEdit001: usize = 0x39EB10;
+            pub const SoundSystem001: usize = 0x39E5E0;
             pub const VMixEditTool001: usize = 0x48289C6A;
         }
         // Module: steamaudio.dll
