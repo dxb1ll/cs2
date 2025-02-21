@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-17 18:20:59.792103 UTC
+// 2025-02-21 21:35:28.928838200 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -87,8 +87,8 @@ pub mod cs2_dumper {
         }
         // Module: matchmaking.dll
         pub mod matchmaking_dll {
-            pub const GameTypes001: usize = 0x1A41B0;
-            pub const MATCHFRAMEWORK_001: usize = 0x1AC380;
+            pub const GameTypes001: usize = 0x1A3190;
+            pub const MATCHFRAMEWORK_001: usize = 0x1AB360;
         }
         // Module: materialsystem2.dll
         pub mod materialsystem2_dll {
