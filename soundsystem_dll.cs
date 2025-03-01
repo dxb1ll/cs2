@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-01 22:13:23.852209 UTC
+// 2025-03-01 22:18:35.578026700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -33,7 +33,7 @@ namespace CS2Dumper.Schemas {
         // Alignment: 2
         // Member count: 10
         public enum VMixFilterType_t : ushort {
-            FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF,
+            FILTER_UNKNOWN = unchecked((ushort)-1),
             FILTER_LOWPASS = 0x0,
             FILTER_HIGHPASS = 0x1,
             FILTER_BANDPASS = 0x2,
